@@ -16,4 +16,4 @@ include = ["src/**/*", "LICENSE", "Cargo.toml"]
 
 [dependencies]
 r2d2 = "0.8"
-redis = "0.13.1-alpha.0"
+redis = { git = "https://github.com/Marwes/redis-rs.git", rev = "75bfe24f7f34faad2460343699bd65bdcfaabaf0" } # 0.13.1-alpha.0
